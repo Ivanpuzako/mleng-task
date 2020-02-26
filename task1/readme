@@ -1,7 +1,0 @@
-для запуска надо скачать Dockerfile в желаемую директорию
-запустить в этой директории 
-docker build -t object_detection .
-после создания образа запустить контейнер
-docker run -ti -v {путь до папки на хосте}:/home/detection/files object_detecdtion
-в терминале контейнера запустить 
-python3 mleng-task/task1/obj_detection.py files/путь до картинки files/путь для результата
